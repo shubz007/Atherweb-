@@ -46,10 +46,10 @@ START: Theme Default CSS
   --mt-color-common-black: #000000;
   
   /* Pink - Using your reddish-purple directly as a main accent */
-  --mt-color-common-pink: #D23B91;
+  --mt-color-common-pink:  #82A25B;
   
   /* Green - Using your green directly as another main accent */
-  --mt-color-common-green: #82A25B;
+  --mt-color-common-green: #D23B91;
   
   /* Purple - A slightly desaturated or lighter version of your reddish-purple for broader use */
   --mt-color-common-purple: #E075A1;
@@ -64,10 +64,10 @@ START: Theme Default CSS
   --mt-color-text-body: #55607B;
   
   /* Theme Primary - Your reddish-purple as the main brand color */
-  --mt-color-theme-primary: #D23B91;
+  --mt-color-theme-primary:#82A25B;
   
   /* Theme Secondary - Your green as a secondary brand accent */
-  --mt-color-theme-secondary: #82A25B;
+  --mt-color-theme-secondary:  #D23B91;
   
   /* Theme BG - A very light tint of one of your primary colors or a neutral */
   --mt-color-theme-bg: #F5F0F3; /* Very light tint of the reddish-purple */
@@ -8732,7 +8732,7 @@ START: Theme Error CSS
 
 /* !END: Theme Error CSS */
 /**----------------------------------------
-START: Theme Footer CSS
+START: Theme      CSS
 ----------------------------------------*/
 .footer-section {
   background-repeat: no-repeat;
