@@ -44,21 +44,52 @@ START: Theme Default CSS
   --mt-fs-h6: 14px;
   --mt-color-common-white: #ffffff;
   --mt-color-common-black: #000000;
-  --mt-color-common-pink: #ff8c91;
-  --mt-color-common-green: #a6e155;
-  --mt-color-common-purple: #BDB66F;
-  --mt-color-common-electric-blue: #f17c83;
-  --mt-color-heading-primary: #292930;
-  --mt-color-text-body: #636363;
-  --mt-color-theme-primary: #CE3692;
-  --mt-color-theme-secondary:#3A7BA5;
-  --mt-color-theme-bg: #fff1f1;
+  
+  /* Pink - Using your reddish-purple directly as a main accent */
+  --mt-color-common-pink: #D23B91;
+  
+  /* Green - Using your green directly as another main accent */
+  --mt-color-common-green: #82A25B;
+  
+  /* Purple - A slightly desaturated or lighter version of your reddish-purple for broader use */
+  --mt-color-common-purple: #E075A1;
+  
+  /* Electric Blue - A complementary color to your primary colors (leaning towards teal/cyan for contrast with the reddish-purple) */
+  --mt-color-common-electric-blue: #5BA2A2;
+  
+  /* Heading Primary - Using your darker blue for strong headings */
+  --mt-color-heading-primary: #374467;
+  
+  /* Text Body - A slightly lighter shade of the heading primary for readability */
+  --mt-color-text-body: #55607B;
+  
+  /* Theme Primary - Your reddish-purple as the main brand color */
+  --mt-color-theme-primary: #D23B91;
+  
+  /* Theme Secondary - Your green as a secondary brand accent */
+  --mt-color-theme-secondary: #82A25B;
+  
+  /* Theme BG - A very light tint of one of your primary colors or a neutral */
+  --mt-color-theme-bg: #F5F0F3; /* Very light tint of the reddish-purple */
+  
+  /* Grey 1 - A very light neutral */
   --mt-color-grey-1: #f6f3fc;
-  --mt-color-grey-2: #e6efff;
-  --mt-color-grey-3: #a2a2a2;
+  
+  /* Grey 2 - A light tint of your darker blue for subtle backgrounds or accents */
+  --mt-color-grey-2: #E9EDF2;
+  
+  /* Grey 3 - A mid-tone grey derived from or complementing your darker blue */
+  --mt-color-grey-3: #7A8394;
+  
+  /* Border 1 - A light neutral */
   --mt-color-border-1: #ddd;
-  --mt-color-border-2: #2f2f30;
-  --mt-color-border-3: #171719;
+  
+  /* Border 2 - Using your darker blue for more prominent borders */
+  --mt-color-border-2: #374467;
+  
+  /* Border 3 - A slightly darker shade of your darker blue for emphasis */
+  --mt-color-border-3: #2A334A;
+
 }
 
 * {
@@ -8743,8 +8774,8 @@ START: Theme Footer CSS
   }
 }
 .footer-top .footer-logo {
-  background-color: #f6f3fc;
-  padding: 50px 70px;
+  background-color:#51577d;
+  padding: 5px 70px;
   position: relative;
 }
 @media only screen and (max-width: 992px) {

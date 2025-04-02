@@ -36,7 +36,7 @@ START: Theme Footer CSS
         justify-content: center;
     }
     .footer-logo {
-        background-color: #f6f3fc;
+        // background-color: #000000;
         padding: 50px 70px;
         position: relative;
         @include breakpoint(md){
@@ -325,6 +325,7 @@ START: Theme Footer CSS
         .footer-logo{
             border-left: 5px solid var(--mt-color-theme-primary);
             border-right: 5px solid var(--mt-color-theme-secondary);
+           
             &:before{
                 border: none;
             }
@@ -332,6 +333,10 @@ START: Theme Footer CSS
                 display: none;
             }
         }
+    }
+    .footer-logo img{
+        height: 120px; 
+        width:200px
     }
     .footer-form-wrap{
         .news{

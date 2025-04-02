@@ -8316,7 +8316,7 @@ START: Theme Footer CSS
   }
 }
 .footer-top .footer-logo {
-  background-color: #f6f3fc;
+  /* background-color: #f6f3fc; */
   padding: 50px 70px;
   position: relative;
 }
